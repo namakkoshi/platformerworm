@@ -226,6 +226,7 @@ class Platformer extends Phaser.Scene {
         });
     }
     resetGameInstant() {
+        this.bgm.stop();
         this.scene.restart();
 
     }
